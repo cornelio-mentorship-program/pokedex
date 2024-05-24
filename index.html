@@ -2,21 +2,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <title>Pokedex</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
         
-    <nav>
-        <img src="logo2.png" alt="logo"/>
-    
-        <ul>
-            <li><a href="http://">HOME</a></li>
-            <li><a href="http://">POKEDEX</a></li>
-            
-        </ul>
-    </nav>
+    <div>
+        <!--Hay un tipo de contenedor para las imágenes que se llama figure, eso permite tener mejor control de los estilos-->
+        <figure>
+            <img src="/images/logo2.png" alt="logo"/>
+        </figure>
+        <!--La etiqueta nav debe de ser exclusivamente para los enlaces de NAVegación-->
+        <nav>
+            <ul>
+                <!-- Cuando vas a hacer un enlace que no apunte a ningún lugar, usa "#" dentro de la propiedad href -->
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">POKEDEX</a></li>
+                
+            </ul>
+        </nav>
+    </div>
         
     </header>
     
