@@ -1,5 +1,5 @@
 # Project Description.
-This is a practice with which we will consolidate the essential knowledge of Web development:
+ This is a practice with which we will consolidate the essential knowledge of Web development:
 * HTML
 * CSS
 * JavaScript
