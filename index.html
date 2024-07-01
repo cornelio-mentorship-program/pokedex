@@ -10,10 +10,10 @@
 <body>
     <header>
 
-        <div>
+        <div class="head">
 
         <figure>
-            <img src="logo2.png" alt="logo"/>
+            <img src="./images/logo2.png" alt="logo"/>
         </figure>
         
     <nav>
@@ -24,22 +24,15 @@
         </ul>
     </nav>
 </div>
-        
-        <div>
-            <!--Hay un tipo de contenedor para las imágenes que se llama figure, eso permite tener mejor control de los estilos-->
-            <figure>
-                <img src="/images/logo2.png" alt="logo" />
-            </figure>
-            <!--La etiqueta nav debe de ser exclusivamente para los enlaces de NAVegación-->
-            <nav>
-                <ul>
-                    <!-- Cuando vas a hacer un enlace que no apunte a ningún lugar, usa "#" dentro de la propiedad href -->
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">POKEDEX</a></li>
 
-                </ul>
-            </nav>
-        </div>
+    <div class="search">
+        <form>
+            <label for="gsearch"></label>
+            <input type="search" id="gsearch" name="gsearch">
+            <input type="button" onclick="" value="Buscar">
+          </form>
+    </div>
+        
     </header>
 </body>
 

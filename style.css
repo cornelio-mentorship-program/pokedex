@@ -1,16 +1,23 @@
+.head{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;   
+}  
+.search form{
+    display: flex;
+    justify-content: center;  
+    margin: 5%;
+    width: 90%;
+    height: max-content;
+}
 nav{
     display: flex;
-    align-items: center;
-    padding-top:  20px;
-    padding-left: 5px;
-    padding-right: 5px;  
-
-}
-ul li{
-    display: inline-block;
-    padding: 0px 20px;
+    justify-content: space-between;
     
 }
-a {
+ul li a{
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
 }
